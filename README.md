@@ -12,37 +12,19 @@ Since a vast part of this project is borrowed from original [0xBitcoin miner](ht
 1. Install NodeJS 14 (nvm install 14)
 2. Clone/download the project
 3. Open a terminal, cd into the project folder and run 'npm install' to install dependencies
-
-  npm install
-  
 4. Run the command 'npm run build' to build C files with node-gyp
-
-  npm run build
-  
 5. Set up the config file 'miner-config.json' (duplicate miner-config-sample as a reference)
 6. Start the miner with 'npm start'
-7. 
-  npm start
 
 #### Setup (Mac)
 1. Install Homebrew & NodeJS 14
 2. Run 'brew install yarn' to install yarn package manager
-
-  brew install yarn
-  
 3. Clone/download this project
-4. Open a terminal, cd into the project folder and run 'yarn'
-
-  yarn
-  
+4. Open a terminal, cd into the project folder and run 'yarn'  
 5. Run the command 'yarn build' to build C files with node-gyp
-
-  yarn build
-  
 6. Set up the config file 'miner-config.json' (duplicate miner-config-sample as a reference)
 7. Start the miner with 'node index.js'
 
-  node index.js
 
 ### NOT WORKING ?
 Make sure you have build-essential installed to compile C code and make sure you have python3.
