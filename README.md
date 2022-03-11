@@ -44,7 +44,7 @@ You must create a file called 'miner-config.json' in the same directory as index
     "maximum_gas": 80000000
     
 
-If you do not have a public address or private key, use Metamask or another Etherum wallet to make them
+If you do not have a public address or a private key, please use Metamask or [official website for Klaytn wallet management](https://wallet.klaytn.com/) to make a new mainnet(cypress) wallet. For testing purposes, please use [the website for wallets on Baobab Testnet](https://baobab.wallet.klaytn.com/).
 
 ---------------
 
@@ -59,11 +59,10 @@ If you do not have a public address or private key, use Metamask or another Ethe
 
 
 ### Solo Mining
-- IF SOLO MINING it is necessary to fill the mining account (it is an Ethereum account) with a small amount of ether.  
-- Typically 0.005 eth is good enough to get started.  The ether is used for gas to make function calls to the token smart contract when your miner finds a solution to the Proof of Work.  
-- When the gas is spent that means that you have found a solution! If you were the first to find it, you will be rewarded with Sigmoid tokens.  (See the block explorer for typical gas prices at the current moment.)
+- For solo mining. it is necessary to fill the mining account (it is an Ethereum account) with a small amount of ether.  
+- A small amount of Klaytn is used for gas to make function calls to the token smart contract when the miner finds a solution to the Proof of Work. Since Klaytn is a POS cryptocurrency, the transaction fee won't be expensive as Ethereum.
+- If the gas is spent that means that you have found a solution! If you were the first to find it, you will be rewarded with Sigmoid tokens. (See the block explorer for typical gas prices at the current moment.)
 
 
-## Tokens that can be mined using Proof of Work:
-
-1. Sigmoid token - http://Sigmoid.org - https://github.com/Sigmoid/Sigmoid-token
+## For more information, visit:
+[Sigmoid homepage](https://sigmoid-token.github.io)
