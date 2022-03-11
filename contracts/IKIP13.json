@@ -1,0 +1,310 @@
+{
+  "contractName": "IKIP13",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "interfaceId",
+          "type": "bytes4"
+        }
+      ],
+      "name": "supportsInterface",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.6+commit.b259423e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"name\":\"interfaceId\",\"type\":\"bytes4\"}],\"name\":\"supportsInterface\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"Interface of the KIP-13 standard, as defined in the [KIP-13](http://kips.klaytn.com/KIPs/kip-13-interface_query_standard). * Implementers can declare support of contract interfaces, which can then be queried by others. * For an implementation, see `KIP13`.\",\"methods\":{\"supportsInterface(bytes4)\":{\"details\":\"Returns true if this contract implements the interface defined by `interfaceId`. See the corresponding [KIP-13 section](http://kips.klaytn.com/KIPs/kip-13-interface_query_standard#how-interface-identifiers-are-defined) to learn more about how these ids are created.     * This function call must use less than 30 000 gas.\"}}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/IKIP13.sol\":\"IKIP13\"},\"evmVersion\":\"constantinople\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/IKIP13.sol\":{\"keccak256\":\"0xb84666f50d3290156db11dc7892da6641a3132fd109588f6cb8a790657ab40ad\",\"urls\":[\"bzzr://d0c357664469d5486de26ff787ae12ef8c4b0a1ff8c944d07e33b8b501fb41bd\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// Copyright (c) 2019-2021 klaytn-contract Authors\n// Copyright (c) 2016-2019 zOS Global Limited\n// Distributed under the MIT software license, see the accompanying\n// file COPYING or http://www.opensource.org/licenses/mit-license.php.\n\npragma solidity ^0.5.0;\n\n/**\n * @dev Interface of the KIP-13 standard, as defined in the\n * [KIP-13](http://kips.klaytn.com/KIPs/kip-13-interface_query_standard).\n *\n * Implementers can declare support of contract interfaces, which can then be\n * queried by others.\n *\n * For an implementation, see `KIP13`.\n */\ninterface IKIP13 {\n    /**\n     * @dev Returns true if this contract implements the interface defined by\n     * `interfaceId`. See the corresponding\n     * [KIP-13 section](http://kips.klaytn.com/KIPs/kip-13-interface_query_standard#how-interface-identifiers-are-defined)\n     * to learn more about how these ids are created.\n     *\n     * This function call must use less than 30 000 gas.\n     */\n    function supportsInterface(bytes4 interfaceId) external view returns (bool);\n}\n",
+  "sourcePath": "/home/jinwoolim/sigmoid-token/contracts/IKIP13.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/IKIP13.sol",
+    "exportedSymbols": {
+      "IKIP13": [
+        28
+      ]
+    },
+    "id": 29,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 20,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "237:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": "@dev Interface of the KIP-13 standard, as defined in the\n[KIP-13](http://kips.klaytn.com/KIPs/kip-13-interface_query_standard).\n * Implementers can declare support of contract interfaces, which can then be\nqueried by others.\n * For an implementation, see `KIP13`.",
+        "fullyImplemented": false,
+        "id": 28,
+        "linearizedBaseContracts": [
+          28
+        ],
+        "name": "IKIP13",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": "@dev Returns true if this contract implements the interface defined by\n`interfaceId`. See the corresponding\n[KIP-13 section](http://kips.klaytn.com/KIPs/kip-13-interface_query_standard#how-interface-identifiers-are-defined)\nto learn more about how these ids are created.\n     * This function call must use less than 30 000 gas.",
+            "id": 27,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "supportsInterface",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 23,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 22,
+                  "name": "interfaceId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27,
+                  "src": "978:18:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes4",
+                    "typeString": "bytes4"
+                  },
+                  "typeName": {
+                    "id": 21,
+                    "name": "bytes4",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "978:6:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes4",
+                      "typeString": "bytes4"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "977:20:1"
+            },
+            "returnParameters": {
+              "id": 26,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 25,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27,
+                  "src": "1021:4:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 24,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1021:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1020:6:1"
+            },
+            "scope": 28,
+            "src": "951:76:1",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 29,
+        "src": "549:480:1"
+      }
+    ],
+    "src": "237:793:1"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/IKIP13.sol",
+      "exportedSymbols": {
+        "IKIP13": [
+          28
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 20,
+        "name": "PragmaDirective",
+        "src": "237:23:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "interface",
+          "documentation": "@dev Interface of the KIP-13 standard, as defined in the\n[KIP-13](http://kips.klaytn.com/KIPs/kip-13-interface_query_standard).\n * Implementers can declare support of contract interfaces, which can then be\nqueried by others.\n * For an implementation, see `KIP13`.",
+          "fullyImplemented": false,
+          "linearizedBaseContracts": [
+            28
+          ],
+          "name": "IKIP13",
+          "scope": 29
+        },
+        "children": [
+          {
+            "attributes": {
+              "body": null,
+              "documentation": "@dev Returns true if this contract implements the interface defined by\n`interfaceId`. See the corresponding\n[KIP-13 section](http://kips.klaytn.com/KIPs/kip-13-interface_query_standard#how-interface-identifiers-are-defined)\nto learn more about how these ids are created.\n     * This function call must use less than 30 000 gas.",
+              "implemented": false,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "supportsInterface",
+              "scope": 28,
+              "stateMutability": "view",
+              "superFunction": null,
+              "visibility": "external"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "interfaceId",
+                      "scope": 27,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bytes4",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bytes4",
+                          "type": "bytes4"
+                        },
+                        "id": 21,
+                        "name": "ElementaryTypeName",
+                        "src": "978:6:1"
+                      }
+                    ],
+                    "id": 22,
+                    "name": "VariableDeclaration",
+                    "src": "978:18:1"
+                  }
+                ],
+                "id": 23,
+                "name": "ParameterList",
+                "src": "977:20:1"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 27,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bool",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bool",
+                          "type": "bool"
+                        },
+                        "id": 24,
+                        "name": "ElementaryTypeName",
+                        "src": "1021:4:1"
+                      }
+                    ],
+                    "id": 25,
+                    "name": "VariableDeclaration",
+                    "src": "1021:4:1"
+                  }
+                ],
+                "id": 26,
+                "name": "ParameterList",
+                "src": "1020:6:1"
+              }
+            ],
+            "id": 27,
+            "name": "FunctionDefinition",
+            "src": "951:76:1"
+          }
+        ],
+        "id": 28,
+        "name": "ContractDefinition",
+        "src": "549:480:1"
+      }
+    ],
+    "id": 29,
+    "name": "SourceUnit",
+    "src": "237:793:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.6+commit.b259423e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-02-24T22:30:09.340Z",
+  "devdoc": {
+    "details": "Interface of the KIP-13 standard, as defined in the [KIP-13](http://kips.klaytn.com/KIPs/kip-13-interface_query_standard). * Implementers can declare support of contract interfaces, which can then be queried by others. * For an implementation, see `KIP13`.",
+    "methods": {
+      "supportsInterface(bytes4)": {
+        "details": "Returns true if this contract implements the interface defined by `interfaceId`. See the corresponding [KIP-13 section](http://kips.klaytn.com/KIPs/kip-13-interface_query_standard#how-interface-identifiers-are-defined) to learn more about how these ids are created.     * This function call must use less than 30 000 gas."
+      }
+    }
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

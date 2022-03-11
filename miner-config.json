@@ -1,0 +1,6 @@
+{
+  "miner_address":"0x",
+  "miner_private_key":"0x",
+  "contract_address":"0x",
+  "maximum_gas": 80000000
+}
