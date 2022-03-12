@@ -29,7 +29,7 @@ Since a vast part of this project is borrowed from original [0xBitcoin miner](ht
 ### NOT WORKING ?
 Make sure you have build-essential installed to compile C code and make sure you have python3.
 
-Try these commands:
+Try this command:
 
   node-gyp rebuild
   
