@@ -46,7 +46,7 @@ private:
   void hash(bytes_t const& solution, bytes_t& digest);
 
 private:
-  bool is_balloon = true;
+  bool is_balloon = false;
   int s_cost = 256;
   int t_cost = 3;
   int delta = 3;

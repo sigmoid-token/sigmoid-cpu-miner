@@ -9,7 +9,7 @@
 
 class BalloonHasher {
     public:
-        int s_cost = 256;
+        int s_cost = 8;
         int t_cost = 3;
         int delta = 3;
 

@@ -1,6 +1,6 @@
 {
   "name": "sigmoid-cpu-miner",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Mine Sigmoid with CPU",
   "main": "bindings.js",
   "scripts": {
@@ -11,8 +11,7 @@
   "dependencies": {
     "caver-js": "^1.6.8",
     "nan": "^2.15.0",
-    "segfault-handler": "^1.3.0",
-    "web3-utils": "^1.7.1"
+    "jayson": "^2.0.5"
   },
   "keywords": [],
   "author": "John Weligon",

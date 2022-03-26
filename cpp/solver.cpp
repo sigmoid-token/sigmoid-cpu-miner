@@ -193,10 +193,8 @@ bool Solver::lte(bytes_t const& left, bytes_t const& right)
 
   for (unsigned i = 0; i < left.size(); ++i)
   {
-    if (left[i] == right[i])
-      continue;
-    if (left[i] < right[i])
-      return false;
+    if (left[i] == right[i]) continue;
+    if (left[i] > right[i]) return false;
     return true;
   }
   return true;
