@@ -120,11 +120,6 @@ async function mine() {
         CPUMiner.run((err, sol) => {
             if (sol) {
                 console.log('Found nonce: ' + sol);
-                console.log(previousBlockHash);
-                console.log(minerAddress);
-                console.log(sol);
-                const digest = caver.utils.sha3(previousBlockHash + minerAddress.substring(2) + sol.substring(2));
-                console.log(digest);
                 try {
                     submit(sol);
                     console.log('Submitted. \n');
